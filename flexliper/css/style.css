@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box {
+    position: relative;
+    top: 30px;
+}
+
+section.banner {
+    padding: 210px 0;
+    position: relative;
+    min-height: 400px;
+    background-image: url(../images/flex1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+section.banner > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+}
+
+.chamada-banner h2 {
+    color: #26A599;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.chamada-banner p {
+    margin: 24px 0;
+    color: white;
+    font-size: 21px;
+    font-weight: lighter;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.chamada-banner a {
+    display: inline-block;
+    color: white;
+    padding: 10px 18px;
+    font-size: 19px;
+    background: #26A599;
+}
+
+.chamada-banner a:hover {
+    text-decoration: none;
+}
+
+section.cadastro-lead {
+    background: #26A599;
+    padding: 16px 0;
+}
+
+section.cadastro-lead h2 {
+    color: white;
+    font-size: 24px;
+}
+
+section.cadastro-lead form {
+    position: relative;
+    top: 10px;
+}
+
+section.cadastro-lead input[type=email] {
+    width: 85%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    vertical-align: middle;
+
+}
+
+section.cadastro-lead input[type=submit] {
+    width: 15%;
+    height: 40px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+section.depoimento {
+    padding: 40px 0;
+}
+
+section.depoimento h2 {
+    color: #4b4b4b;
+}
+
+section.depoimento p {
+    color: #4b4b4b;
+}
+
+section.depoimento blockquote {
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+section.diferenciais {
+    padding: 20px 0;
+    background: rgb(225,225,225);
+}
+
+section.diferenciais p {
+    font-size: 18px;
+}
+
+.diferenciais-container {
+    margin-top: 30px;
+}
+
+.diferenciais-container h3{
+    color: #26A599;
+}
+
+section.final-site {
+    padding: 30px 0;
+}
+
+section.final-site textarea {
+    height: 120px;
+}
+
+section.final-site h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #4b4b4b;
+    font-size: 30px;
+}
+
+section.trabalhos {
+    padding: 10px 0;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/*footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.icoInstagram:hover {
+    background-color: rgb(253, 5, 158);
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoInstagram:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: black;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+a {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #26A599;
+    width: 100%;
+    height: 40px;
+}
+
+footer > p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    section.cadastro-lead form {
+        position: relative;
+        top: 0;
+    }
+}
