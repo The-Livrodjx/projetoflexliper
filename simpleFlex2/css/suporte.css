@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box {
+    position: relative;
+    top: 30px;
+}
+
+section.banner {
+    padding: 250px 0;
+    position: relative;
+    min-height: 400px;
+    background-image: url(../images/flexsuporte.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+section.banner > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.1);
+}
+
+section.veigar {
+    padding: 40px;
+    width: 100%;
+}
+
+section.veigar h2 {
+    color: #4b4b4b;
+    margin-bottom: 20px;
+}
+
+section.veigar p{
+    color: #4b4b4b;
+}
+
+section.veigar blockquote {
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #000058;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1536px) {
+    section.banner {
+        padding: 360px 0;
+        position: relative;
+        min-height: 400px;
+        background-image: url(../images/flexsuporte.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    section.banner {
+        padding: 330px 0;
+        position: relative;
+        min-height: 400px;
+        background-image: url(../images/flexsuporte.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    section.banner {
+        padding: 305px 0;
+        position: relative;
+        min-height: 400px;
+        background-image: url(../images/flexsuporte.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 1137px) {
+    section.banner {
+        padding: 270px 0;
+        position: relative;
+        min-height: 400px;
+        background-image: url(../images/flexsuporte.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section.banner {
+        padding: 210px 0;
+        position: relative;
+        min-height: 400px;
+        background-image: url(../images/flexsuporte.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+@media screen and (max-width: 370px) {
+    section.banner {
+        padding: 50px 0;
+        position: relative;
+        min-height: 300px;
+        background-image: url(../images/flexsuporte.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    section.banner {
+        padding: 50px 0;
+        position: relative;
+        min-height: 200px;
+        background-image: url(../images/flexsuporte.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    footer {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .yasuo {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 230px) {
+    footer {
+        width: 100%;
+        height: 100px;
+    }
+}
